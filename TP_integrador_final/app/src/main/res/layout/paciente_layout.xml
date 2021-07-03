@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/p_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/p_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/p_apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Apellido"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/p_dni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Dni (solo numeros)"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/p_sexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Sexo"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/p_fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Fecha(solo numeros)"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/p_localidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Localidad"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/p_contraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/p_tratamiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Tratamiento"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/b_i_aceptar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Aceptar" />
+
+        <Button
+            android:id="@+id/b_i_cancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Editar" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/b_borrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Borrar" />
+</LinearLayout>
